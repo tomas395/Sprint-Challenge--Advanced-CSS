@@ -177,9 +177,12 @@ h1 {
 }
 @media (max-width: 500px) {
   .top-div {
+    display: flex;
+    flex-flow: wrap;
     max-width: 100%;
     width: 100%;
     background-color: red;
+    justify-content: space-evenly;
   }
 }
 footer {
@@ -272,5 +275,9 @@ footer {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+  }
+  .space-images {
+    max-width: 100%;
+    width: 100%;
   }
 }

@@ -257,3 +257,20 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .launch {
+    display: none;
+  }
+  .sky {
+    display: none;
+  }
+  .walk {
+    display: flex;
+    flex-flow: column;
+  }
+  .walk-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

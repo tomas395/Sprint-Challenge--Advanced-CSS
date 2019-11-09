@@ -1,20 +1,32 @@
 // Mixins Here
 
-.btn() {
-    background-color: @btn-bg-color;
-    color: @porcelain;
+.btn(@background-color; @foreground-color) {
+    background-color: @background-color;
+    color: @foreground-color;
     width: 27%;
     font-size: 1.6rem;
     padding: 7px;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-}
 
-.btn2() {
     &:hover {
-        color: @btn-bg-color;
-        background-color: @porcelain;
+        color: @background-color;
+        background-color: @foreground-color;
     }
 }
 
+
+
+// LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+
+// * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+
+// * [ ]  Use at least 2 parameters to create your button
+
+// * [ ] Create a hover state that swaps the background color and font color of the base button styles.
+
+
+.signup-btn {
+    .btn(@btn-bg-color; @porcelain);
+}

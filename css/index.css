@@ -1,3 +1,17 @@
+.signup-btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  width: 27%;
+  font-size: 1.6rem;
+  padding: 7px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.signup-btn:hover {
+  color: #22283A;
+  background-color: #F6F7F8;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -238,20 +252,6 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  background-color: #22283A;
-  color: #F6F7F8;
-  width: 27%;
-  font-size: 1.6rem;
-  padding: 7px;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 5px;
-}
-.home .walk .walk-text .btn:hover {
-  color: #22283A;
-  background-color: #F6F7F8;
 }
 .home .walk-img {
   width: 46%;

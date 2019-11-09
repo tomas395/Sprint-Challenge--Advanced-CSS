@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Easy Rider</title>
+  <style>
+    fieldset {
+      display: flex;
+      align-items: center;
+      border: solid;
+      border-color: red;
+      background-color: white;
+      margin-bottom: 10px;
+      max-width: 350px;
+      width: 100%;
+      border-width: 10px;
+      float: center;
+    }
+
+    .label {
+      width: 180px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .box_radio {
+      width: auto;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Register With Us!</h1>
+
+  <!-- no server -->
+  <form action="about:blank" method="POST">
+
+    <fieldset>
+      <legend>Details</legend>
+      <label class="center" for="name">Name: </label>
+      <input type="text" name="name" id="name" placeholder="Your name" required />
+      <br />
+
+      <label>Email:</label><input type="text" name="email" id="email" required /> <br />
+      <label>Mobile:</label><input type="tel" name="mobile" id="mobile" />
+      <br />
+      <label>Address:</label><textarea rows="3" cols="30" name="address" id="address"></textarea>
+      <br />
+      Which Country:
+      <select>
+        <option value="United States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Antarctica">Antarctica</option>
+        <option value="The Shivering Sea">The Shivering Sea</option>
+        <option value="No Selection">Nope</option>
+      </select>
+      <br />
+      Method to contact you: <br> Email
+      <input type="checkbox" name="contact method1" id="contact method1" value="email" />
+      <span>Snail Mail</span>
+      <input type="checkbox" name="contact method2" id="contact method2" value="snailmail" />
+      Telephone
+      <input type="checkbox" name="contact method3" id="contact method3" value="telephone" />
+    </fieldset>
+    <br />
+    <input type="submit" value="SMASH" />
+  </form>
+</body>
+
+</html>

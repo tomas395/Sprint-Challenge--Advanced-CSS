@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+responsive design is coded using the base markup and css of your site and only loads up css that it needs to be mobile friendly through media queries. the site loads up faster than adaptive and it's overall better for whichever device you want to view it on.
+
+adaptive on the other hand uses different layouts specifically for devices like tablets, phones and desktop. it's slower and the layouts are on standby until the website detects the device the user is on and then displays according to what they're on. you have different designs for whichever the user visits.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first is when you design your site to look good at screen size 500px as an example and then using media queries so that when it gets to a desktop size, it expands to look perfect on that too. It's supposed to be easier to do it mobile first as it saves a lot of time and avoids headaches.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+it's scaled to that the value of each rem is equal to 10px. this way the math is easier when you want to change the font-size on your site for an adaptive or responsive website.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would say that preprocessing is great because you can use nested selectors, divide your code into multiple pages with each corresponding section and you can use new concepts like mixins, variables and escapes. these things save you lines of code and make new things possible that weren't really a thing with regular css.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+my favorite thing are nested selectors. everything is grouped up and easy to read whats going on in any given section of a site. the thing that gives me the most trouble are media queries. i don't have a real firm grasp on it and when i think about mobile after desktop i let out a groan.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

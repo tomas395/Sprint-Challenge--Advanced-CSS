@@ -75,8 +75,15 @@
   }
 
   .signup-btn {
+    padding: 7px;
+    width: 27%;
     .btn(@btn-bg-color; @porcelain);
     .border(1px; solid; red);
+
+    @media @phone {
+      width: 100%;
+      padding: 20px;
+    }
   }
 
   @media @phone {
